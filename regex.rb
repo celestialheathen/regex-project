@@ -1,5 +1,8 @@
 info = File.new('info.txt')
 
-p info.read.scan(/\d{3}/)
+# Names
+# puts info.read.scan(/^[a-z]+\.?\s[a-z]+.?\s[a-z]+$/i)
 
-info.close
+
+
+info.close  
