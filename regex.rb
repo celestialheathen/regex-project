@@ -1,5 +1,5 @@
 info = File.new('info.txt')
 
-puts info.read
+p info.read.scan(/\d{3}/)
 
-info.close  
+info.close
